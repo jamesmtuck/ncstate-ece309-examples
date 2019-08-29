@@ -1,5 +1,5 @@
 
-EXE = lec03 cstr
+EXE = lec02 namespace
 
 all: $(EXE)
 
