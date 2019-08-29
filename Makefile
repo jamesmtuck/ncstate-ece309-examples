@@ -1,5 +1,5 @@
 
-DIRS = lecture01
+DIRS = lecture01 lecture02 lecture03
 
 .PHONY = $(addsuffix -all,$(DIRS)) $(addsuffix -test,$(DIRS)) $(addsuffix -test,$(DIRS))
 
