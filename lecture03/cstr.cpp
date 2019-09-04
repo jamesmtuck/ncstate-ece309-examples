@@ -18,18 +18,19 @@ public:
 
   cstr(const cstr &other)
   {
-    size = other.size;
-    s = new char[size+1];
+    std::cout << "made a copy!\n";
+    s = new char[ other.size+1 ];
     strcpy(s, other.s);
+    size = other.size;
   }
   
-  ~cstr() {
+  ~cstr() {   
     delete s;
   }
 };
 
 void print(cstr s) {
-  std::cout << s.get();
+  std::cout << s.get() << "\n";
 }
 
 int main() {
@@ -38,7 +39,6 @@ int main() {
   cstr s2 = "doesn't really matter!";
 
   print(s);
-  print(s2);
   
   return 0;
 }
