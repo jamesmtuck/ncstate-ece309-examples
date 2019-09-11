@@ -9,4 +9,4 @@ clean:
 	rm -f $(EXE) *~ logfile.txt
 
 %: %.cpp
-	$(CXX) -o $@ $< 
+	$(CXX) -o $@ $< -std=c++11
