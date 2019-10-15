@@ -38,7 +38,8 @@ protected:
   BTNode *root;
   
 public:
-  BinarySearchTree() {
+  BinarySearchTree()
+  {
     root = nullptr;
   }
 
@@ -57,6 +58,7 @@ public:
 	  {	    
 	    if (data < tmp->data)
 	      {
+		// data must be on left side
 		if (tmp->left == nullptr)
 		  {
 		    tmp->left = node; // 
@@ -67,6 +69,7 @@ public:
 	      }
 	    else
 	      {
+		// data must be on right side
 		if (tmp->right == nullptr)
 		  {
 		    tmp->right = node;
