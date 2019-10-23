@@ -1,5 +1,5 @@
 
-DIRS = lecture01 lecture02 lecture03 lecture04 lecture05 lecture06 lecture07 lecture08 lecture12 lecture13 lecture14 lecture15
+DIRS = lecture01 lecture02 lecture03 lecture04 lecture05 lecture06 lecture07 lecture08 lecture12 lecture13 lecture14 lecture15 lecture16
 
 #lecture09 lecture10 lecture11
 
